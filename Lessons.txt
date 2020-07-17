@@ -1,0 +1,14 @@
+<TextInput placeholder="Height" keyboardType="numeric" />
+- Criando o campo "Altura" e setando o tipo de teclado como numerico (o mesmo vale para a masssa)
+
+flexDirection: 'row',
+- Colocar itens alinhados, mudando o flex de collum (coluna) para row (linha)
+
+style={[styles.result, {fontSize: 35}]}
+- Modificando o tamando da fonte de dentro do style (transformando o stlye em array e adicionando a modificação)
+
+onChangeText={(mass)=>{this.setState({mass})}}
+- Ao mudar o campo de texto "massa", mudar a variavel "massa" declarada no construtor
+
+.toFixed(2)
+- Quantas casas após a virgula
